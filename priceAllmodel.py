@@ -92,5 +92,7 @@ def main():
     st.subheader("Model Performansı (R2 Score)")
     st.write(f"R2 Skoru: {round(r2, 4)}")
 
+    st.write("Bir yer var... Made by Müşerref Selçuk Özdemir")
+
 if __name__ == "__main__":
     main()
