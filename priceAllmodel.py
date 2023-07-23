@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.neighbors import KNeighborsRegressor
 
 # Veri yükleme
-data_url = "players_20.csv"  # veri dosyanızın yolunu buraya ekleyin
+data_url = "data/players_20.csv"  # veri dosyanızın yolunu buraya ekleyin
 data = pd.read_csv(data_url)
 
 # Türkçeleştirilmiş pozisyonlar
